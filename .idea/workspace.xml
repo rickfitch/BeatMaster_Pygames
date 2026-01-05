@@ -4,13 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3509f448-143f-4708-848b-f9363ec19476" name="Changes" comment="grid drawn. no sounds yet.">
+    <list default="true" id="3509f448-143f-4708-848b-f9363ec19476" name="Changes" comment=" no sounds yet. xml update">
+      <change afterPath="$PROJECT_DIR$/sounds/clap.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sounds/crash.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sounds/hi hat.WAV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sounds/kick.WAV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sounds/kit2/clap.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sounds/kit2/crash.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sounds/kit2/hi hat.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sounds/kit2/kick.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sounds/kit2/snare.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sounds/kit2/tom.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sounds/snare.WAV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sounds/tom.WAV" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="19" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -22,11 +39,26 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;rickfitch&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/rickfitch/BeatMaster_Pygames.git&quot;,
+    &quot;accountId&quot;: &quot;00953618-4104-4f80-8f2e-38322188c3ef&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="37lSiDItvwWrvy2UC4mQC4x75af" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -34,15 +66,24 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.main.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "settings.editor.selected.configurable": "inlay.hints"
+    "last_opened_file_path": "C:/Users/rickf/PycharmProjects/BeatMaker",
+    "settings.editor.selected.configurable": "ml.llm.LLMConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rickf\PycharmProjects\BeatMaker" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-337b0a7a993a-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.19416.19" />
+        <option value="bundled-python-sdk-f2b7a9f6281b-6e1f45a539f7-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.29346.142" />
       </set>
     </attachedChunks>
   </component>
@@ -63,7 +104,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767487308250</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary=" no sounds yet. xml update">
+      <option name="closed" value="true" />
+      <created>1767503976334</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1767503976334</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -79,6 +128,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="grid drawn. no sounds yet." />
-    <option name="LAST_COMMIT_MESSAGE" value="grid drawn. no sounds yet." />
+    <MESSAGE value=" no sounds yet. xml update" />
+    <option name="LAST_COMMIT_MESSAGE" value=" no sounds yet. xml update" />
   </component>
 </project>
