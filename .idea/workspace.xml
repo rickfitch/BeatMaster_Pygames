@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3509f448-143f-4708-848b-f9363ec19476" name="Changes" comment=" no sounds yet. xml update">
-      <change afterPath="$PROJECT_DIR$/sounds/clap.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sounds/crash.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sounds/hi hat.WAV" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sounds/kick.WAV" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sounds/kit2/clap.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sounds/kit2/crash.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sounds/kit2/hi hat.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sounds/kit2/kick.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sounds/kit2/snare.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sounds/kit2/tom.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sounds/snare.WAV" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sounds/tom.WAV" afterDir="false" />
+    <list default="true" id="3509f448-143f-4708-848b-f9363ec19476" name="Changes" comment=" sounds added. no lower menu.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -112,7 +100,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767503976334</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary=" sounds added. no lower menu.">
+      <option name="closed" value="true" />
+      <created>1767647073256</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1767647073256</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,6 +125,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="grid drawn. no sounds yet." />
     <MESSAGE value=" no sounds yet. xml update" />
-    <option name="LAST_COMMIT_MESSAGE" value=" no sounds yet. xml update" />
+    <MESSAGE value=" sounds added. no lower menu." />
+    <option name="LAST_COMMIT_MESSAGE" value=" sounds added. no lower menu." />
   </component>
 </project>
