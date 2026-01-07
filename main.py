@@ -169,6 +169,16 @@ while run:
 
             elif bpm_sub_rect.collidepoint(event.pos):
                     bpm -= 5
+            elif beats_add_rect.collidepoint(event.pos):
+                    beats += 1
+                    for i in range(len(clicked)):
+                        clicked[i].append(-1)
+
+            elif beats_sub_rect.collidepoint(event.pos):
+                    beats -= 1
+                    for i in range(len(clicked)):
+                        clicked[i].pop(-1)
+
 
     beat_length = 3600 // bpm
 
