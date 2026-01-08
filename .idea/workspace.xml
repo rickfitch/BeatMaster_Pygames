@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3509f448-143f-4708-848b-f9363ec19476" name="Changes" comment=" finished tempo adjust menu">
+    <list default="true" id="3509f448-143f-4708-848b-f9363ec19476" name="Changes" comment="added instrumental channel selection.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -132,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767763442385</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added instrumental channel selection.">
+      <option name="closed" value="true" />
+      <created>1767832989420</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1767832989422</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -152,6 +160,7 @@
     <MESSAGE value=" sounds added. no lower menu." />
     <MESSAGE value=" sounds added. lower menu now has play pause and tempo." />
     <MESSAGE value=" finished tempo adjust menu" />
-    <option name="LAST_COMMIT_MESSAGE" value=" finished tempo adjust menu" />
+    <MESSAGE value="added instrumental channel selection." />
+    <option name="LAST_COMMIT_MESSAGE" value="added instrumental channel selection." />
   </component>
 </project>

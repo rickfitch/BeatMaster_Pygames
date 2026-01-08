@@ -149,13 +149,22 @@ while run:
     beats_sub_rect = pygame.draw.rect(screen, gray, [900, HEIGHT - 100, 48, 48], 0, 5)
     bpm_sub_text = label_font.render("-", True, white)
     screen.blit(bpm_sub_text, (918, HEIGHT - 95))
-
     #instruments stuff
     instrument_rects = []
     for i in range(instruments):
         rect = pygame.rect.Rect((0, i * 100), (200, 100))
         instrument_rects.append(rect)
-
+    #save and load buttons
+    save_button = pygame.draw.rect(screen, gray, [1000, HEIGHT - 150, 112, 48], 0, 5)
+    save_text = label_font.render("Save", True, white)
+    screen.blit(save_text, (1015, HEIGHT - 140))
+    load_button = pygame.draw.rect(screen, gray, [1000, HEIGHT - 100, 112, 48], 0, 5)
+    load_text = label_font.render("Load", True, white)
+    screen.blit(load_text, (1015, HEIGHT - 90))
+    #clear button
+    clear_button = pygame.draw.rect(screen, gray, [1150, HEIGHT - 150, 112, 48], 0, 5)
+    clear_text = label_font.render("Clear", True, white)
+    screen.blit(clear_text, (1160, HEIGHT - 140))
 
     if beat_changed:
         play_notes()
@@ -176,28 +185,29 @@ while run:
                     playing = False
                 elif not playing:
                     playing = True
+
             elif bpm_add_rect.collidepoint(event.pos):
                     bpm += 5
-
             elif bpm_sub_rect.collidepoint(event.pos):
                     bpm -= 5
+
             elif beats_add_rect.collidepoint(event.pos):
                     beats += 1
                     for i in range(len(clicked)):
                         clicked[i].append(-1)
-
             elif beats_sub_rect.collidepoint(event.pos):
                     beats -= 1
                     for i in range(len(clicked)):
                         clicked[i].pop(-1)
 
+            elif clear_button.collidepoint(event.pos):
+                clicked = [[-1 for _ in range(beats)] for _ in range(instruments)]
+
             for i in range(len(instrument_rects)):
                 if instrument_rects[i].collidepoint(event.pos):
                     active_list[i] *= -1
 
-
     beat_length = 3600 // bpm
-
     if playing:
         if active_length < beat_length:
             active_length += 1
